@@ -23,7 +23,7 @@ No backend, teremos um arquivo Application.scala (.\app\controllers). Neste arqu
 		  .getOrCreate()
 
 
-#Pré-Requisitos / Instalação / Configuração do Projeto
+# Pré-Requisitos / Instalação / Configuração do Projeto
 
 1. Fazer download e instalar o Sbt no linux (Ubuntu 16.04):  http://www.scala-sbt.org
 2. Fazer download e instalar o Google Chrome : Testado com sucesso neste browser.
@@ -57,5 +57,9 @@ SPARK_WORKER_CORES     - Quantidade de Processadores (núcleos de processamento)
 5. Após executar esses comandos , os workers irão aparecer na aba Workers (na página do Mestre), com seus respectivos ID's.
 6. Após a execução da página Web, o play irá submeter as consultas ao Spark e a arquitetura em Cluster funcionando com sucesso.
 
-
-
+# Participantes do Projeto (Engsoft30)
+Gisele Bastos 	- giselebastos@gmail.com
+Gisele Coelho 	- gisa153@gmail.com
+Jorge Pataco  	- jorgepataco1987@gmail.com
+Marco Herrera 	- mherreraj@gmail.com
+Juan Patrick    - juanscript@gmail.com
