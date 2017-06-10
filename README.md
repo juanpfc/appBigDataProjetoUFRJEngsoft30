@@ -1,7 +1,6 @@
 # UFRJ Turma Engsoft30 - BigData (Prof. Alexandre A. B. Lima)
-O trabalho desenvolvido, é referente aos sinistros ocorridos somente na cidade do Rio de Janeiro.
 
-O Arquivo analisado contém aproximadamente 10 mil registros.
+O Trabalho desenvolvido é referente a análise de aproximadamente 10 mil registros de sinistros ocorridos somente na cidade do Rio de Janeiro.
 
 Seguem as tecnologias, que o projeto estará utilizando :
 
@@ -37,7 +36,7 @@ Observação :
 Para enviar as informações ao spark, deverá atualizar o arquivo Application.scala , onde .master("<endereço do master>") 
 <endereço master> será o local onde estará configurado o SparkMaster.
 
-Para levantar um cluster Master/Workers, acesse o endereço para maiores informações : 
+Para levantar um cluster Master/Workers: 
 https://spark.apache.org/docs/2.1.0/spark-standalone.html
 
 Ou siga abaixo :
