@@ -1,4 +1,4 @@
-# UFRJ Turma Engsoft30 - BigData Registros de Sinistro RJ (Prof. Alexandre A. B. Lima)
+# UFRJ Turma Engsoft30 - BigData - Registros de Sinistro RJ (Prof. Alexandre A. B. Lima)
 
 O Trabalho desenvolvido é referente a análise de aproximadamente 10 mil registros de sinistros ocorridos somente na cidade do Rio de Janeiro.
 
