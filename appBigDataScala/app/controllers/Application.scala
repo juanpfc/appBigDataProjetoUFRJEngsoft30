@@ -23,7 +23,7 @@ class Application @Inject() extends Controller {
 		  .getOrCreate()
    import spark.implicits._
    val sinistroDF = spark.read.option("header","true")
-               .csv("/home/bigdata/Downloads/appBigDataScalaFinal/public/dados sinistro por bairro.csv")
+               .csv("dados_sinistro.csv")
    sinistroDF.createOrReplaceTempView("sinistros")
    val resumoDF = spark.sql("select substr(AVI_DT_OCORRENCIA,1,6) as periodo, trim(AVI_DS_MARCA) as marca, BOL_NM_BAIRRO_SINI as bairro, count(*) as quantidade from sinistros where AVI_DT_OCORRENCIA <> '' group by substr(AVI_DT_OCORRENCIA,1,6), trim(AVI_DS_MARCA), BOL_NM_BAIRRO_SINI")
    resumoDF.createOrReplaceTempView("resumo")
