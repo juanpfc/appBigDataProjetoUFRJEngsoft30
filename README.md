@@ -48,8 +48,8 @@ Ou siga abaixo :
 1. Faça download do Apache Spark  : https://spark.apache.org/downloads.html
 2. Extraia o arquivo : spark-2.1.1-bin-hadoop2.7.tgz
 3. No diretório sbin, execute o comando spark-master.sh 
-Assim que for inicializado o Mestre, acesse o endereço http:localhost:8080
-Observe que na página superior da página, terá um endereço do spark (exemplo : spark://spark:7077).
+Assim que for inicializado o Mestre, acesse o endereço http://localhost:8080
+Observe que na parte superior da página, terá um endereço do spark (exemplo : spark://spark:7077).
 4. Configure os Workers : configure o seguinte comando :
 SPARK_WORKER_MEMORY=1Gb SPARK_WORKER_INSTANCES=2 SPARK_WORKER_CORES=1 <endereco da pasta do Apache Spark>/sbin/start-slave.sh spark://spark:7077 (endereço do Mestre).
 
