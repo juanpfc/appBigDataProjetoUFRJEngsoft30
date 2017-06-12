@@ -2,6 +2,10 @@
 
 O Trabalho desenvolvido é referente a análise de aproximadamente 10 mil registros de sinistros ocorridos somente na cidade do Rio de Janeiro.
 
+# Observação : Fazer download do zip appBigDataScalaFinal.zip e extrair as informações.
+
+
+
 Seguem as tecnologias que o projeto estará utilizando :
 
 # Play Framework : 
